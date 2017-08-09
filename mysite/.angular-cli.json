@@ -19,9 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+	"../node_modules/jquery.terminal/css/jquery.terminal.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+	"../node_modules/angular/angular.js",
+	"../node_modules/jquery.terminal/js/jquery.terminal.js",
+	"../node_modules/angular-terminal/angular-terminal.js",
+	"assets/js/main.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
