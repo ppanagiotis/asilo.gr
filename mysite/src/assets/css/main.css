@@ -1,0 +1,21 @@
+body {
+	background-color: black;
+}
+
+.terminal, .cmd {
+	font-family: monospace;
+	/*font-family: FreeMono, monospace; this don't work on Android */
+	color: green;
+	background-color: #000;
+	font-size: 12px;
+	line-height: 14px;
+	box-sizing: border-box;
+}
+
+strong, b {
+	color: #44D544;
+}
+
+.terminal-container {
+	max-height: 800px;
+}
